@@ -39,7 +39,7 @@ __global__ void sumColsAndComputeVelAndPos(vector3* accels, vector3* hPos, vecto
 
 		for (int k = 0; k < 3; k++){
 			hVel[i][k] += accel_sum[i][k] * INTERVAL;
-			hPos[i][k] = hVel[i][k] * INTERVAL;
+			hPos[i][k] += hVel[i][k] * INTERVAL;
 		}
 	}
 }
