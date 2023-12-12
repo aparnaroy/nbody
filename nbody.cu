@@ -1,4 +1,4 @@
-// Partner: Emilie Barniak
+// I worked with Emilie Barniak at first, but we then worked separately and submitted different code.
 
 #include <stdlib.h>
 #include <stdio.h>
